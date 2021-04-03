@@ -77,6 +77,8 @@ def traverse(src_path, path_from_src, dest_path, files_dict):
 
 
 def run(src_path, dest_path):
+    check_src_folder_exists(src_path)
+    check_dest_folder_exists(dest_path)
     files_dict = initial_traverse(src_path, "", dest_path)
     while True:
         traverse(src_path, "", dest_path, files_dict)

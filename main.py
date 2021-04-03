@@ -16,7 +16,4 @@ dest_path = args.destination_path
 
 print("src_path",src_path,"\ndest_path",dest_path)
 
-check_src_folder_exists(src_path)
-check_dest_folder_exists(dest_path)
-
 run(src_path, dest_path)
