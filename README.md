@@ -6,7 +6,7 @@ light-sync is very useful while debugging on remote machine as you can use your 
 
 ### Command
 ```
-$python sync.py /path/to/source/folder /path/to/destination/folder
+$python main.py /path/to/source/folder /path/to/destination/folder
 ```
 
 ### Key features:
